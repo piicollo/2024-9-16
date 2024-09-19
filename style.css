@@ -1,0 +1,36 @@
+.bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 18px;
+    color: white;
+    font-family: fantasy;
+    text-transform: uppercase
+}
+
+li a:hover {
+    background-color: #04aa6d;
+}
+
+input[type=text] {
+    float: right;
+    margin: 11px;
+    width: 25%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+ 
+}
